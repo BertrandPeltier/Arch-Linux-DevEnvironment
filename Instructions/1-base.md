@@ -68,11 +68,12 @@ pacman -S nano # Installation de nano (éditeur de texte simple)
 
 ```bash
 nano /etc/locale.gen # Edition du fichier locale.gen
-# Puis on décommente la ligne :
+# Décommenter la ligne :
 'fr_FR.UTF-8 UTF-8'
 locale-gen # Génération des locales
 echo 'LANG="fr_FR.UTF-8"' > /etc/locale.conf # Ajout de la locale dans le fichier locale.conf
-export LANG=fr_FR.UTF-8
+export LANG="fr_FR.UTF-8"
+echo 'KEYMAP=fr' > /etc/vconsole.conf # Définition de la disposition du clavier
 ```
 
 * Installation et démarrage de DHCPCD
