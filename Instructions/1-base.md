@@ -59,7 +59,7 @@ echo 'NomDeLaMachine' > /etc/hostname # Renseigne le nom de la machine dans le f
 echo '127.0.0.1 NomDeLaMachine.localdomain NomDeLaMachine' >> /etc/hosts # Renseigne le nom de la machine dans le fichier /etc/hosts
 ```
 
-* Configuartion "local"
+* Configuration "local"
 ```bash
 ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime # Création d'un lien symbolique /etc/localtime afin de choisir le fuseau horaire de la France
 pacman -Syu # Synchronisation et mise à jour des paquets

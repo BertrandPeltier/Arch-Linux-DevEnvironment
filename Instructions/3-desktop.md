@@ -14,4 +14,6 @@ nautilus # Gestionnaire de fichier
 
 gnome-control-center # Paramètres Gnome
 
+gnome-tweaks # Ajustements Gnome
+
 xdg-user-dirs # Ajout des dossiers utilisateur (Bureau, Téléchargement...)
