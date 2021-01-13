@@ -8,3 +8,6 @@
 - [Installation de la base](./Instructions/1-base.md)
 - [First reboot](./Instructions/2-reboot.md)
 - [Desktop environnement](./Instructions/3-desktop.md)
+
+**Tips :**
+- [Script pour reflector](./Tips/script-reflector.md)
