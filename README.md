@@ -11,3 +11,4 @@
 
 **Tips :**
 - [Script pour reflector](./Tips/script-reflector.md)
+- [Script pour vérifier les erreurs système](./Tips/script-erreurs.md)
