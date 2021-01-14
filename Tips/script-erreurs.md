@@ -1,4 +1,4 @@
-## Script erreurs
+## Script pour vérifier les erreurs système
 
 * Création du script
 ```bash

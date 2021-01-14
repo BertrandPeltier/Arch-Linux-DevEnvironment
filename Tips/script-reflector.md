@@ -1,4 +1,4 @@
-## Script reflector
+## Script pour reflector - Mise à jour des mirroirs de pacman
 
 * Installation de reflector
 ```bash

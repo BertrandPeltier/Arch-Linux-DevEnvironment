@@ -10,5 +10,5 @@
 - [Desktop environnement](./Instructions/3-desktop.md)
 
 **Tips :**
-- [Script pour reflector](./Tips/script-reflector.md)
+- [Script pour reflector - Mise à jour des mirroirs](./Tips/script-reflector.md)
 - [Script pour vérifier les erreurs système](./Tips/script-erreurs.md)
