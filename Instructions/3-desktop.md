@@ -11,13 +11,19 @@ systemctl enable gdm # Activation de GDM
 pacman -S networkmanager # Gestionnnaire de connexion
 systemctl enable NetworkManager
 
-nautilus # Gestionnaire de fichier
+pacman -S
 
-gnome-control-center # Paramètres Gnome
+'nautilus' # Gestionnaire de fichier
 
-gnome-tweaks # Ajustements Gnome
+'gnome-control-center' # Paramètres Gnome
 
-xdg-user-dirs # Ajout des dossiers utilisateur (Bureau, Téléchargement...)
+'gnome-tweaks' # Ajustements Gnome
+
+'xdg-user-dirs' # Ajout des dossiers utilisateur (Bureau, Téléchargement...)
+
+'firefox' # Navigateur Web
+
+'chromium' # Autre navigateur web
 ```
 
 * Dossier partagé avec l'hôte

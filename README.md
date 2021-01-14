@@ -2,12 +2,16 @@
 
 **Objectif :** Se créer un environnement de développement sous Arch Linux (sur une VM)
 
-**Instructions :**
+**Installation :**
 
 - [Création et paramétrage de la VM](./Instructions/0-vm.md)
 - [Installation de la base](./Instructions/1-base.md)
 - [First reboot](./Instructions/2-reboot.md)
 - [Desktop environnement](./Instructions/3-desktop.md)
+
+**Environnement de développement :**
+- [Git](./Dev-Environment/git.md)
+- To be continued...
 
 **Tips :**
 - [Mise à jour du système & pacman](./Tips/maj-pacman.md)
