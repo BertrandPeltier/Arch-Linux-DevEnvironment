@@ -1,5 +1,8 @@
 ## Installation de la base
 
+* Téléchargement de l'iso
+[https://archlinux.org/download/](https://archlinux.org/download/)
+
 * Clavier en fr
 ```bash
 loqdkeys fr)pc # Default keyboard layout = us (qwerty)
