@@ -10,5 +10,6 @@
 - [Desktop environnement](./Instructions/3-desktop.md)
 
 **Tips :**
+- [Mise à jour du système & pacman](./Tips/maj-pacman.md)
 - [Script pour reflector - Mise à jour des mirroirs](./Tips/script-reflector.md)
 - [Script pour vérifier les erreurs système](./Tips/script-erreurs.md)
