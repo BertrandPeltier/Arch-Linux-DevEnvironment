@@ -8,7 +8,7 @@ passwd 'username'
 
 * Attribution des droits `sudo`
 ```bash
-pacman -S sudo # Instaalation du paquet sudo
+pacman -S sudo # Installation du paquet sudo
 EDITOR=nano visudo # Edition des privilèges
 # Puis décommenter la ligne
 '%wheel ALL=(ALL) ALL'

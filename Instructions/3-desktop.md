@@ -2,7 +2,7 @@
 
 * GDM (display manager + terminal) :
 ```bash
-pacman -S gdm gnome-terminal # le groupe gdm installe les dépendance 'gnome-shell' + 'xorg-server' = le minimum
+pacman -S gdm gnome-terminal # le groupe gdm installe les dépendances 'gnome-shell' + 'xorg-server' = le minimum
 systemctl enable gdm # Activation de GDM
 ```
 
