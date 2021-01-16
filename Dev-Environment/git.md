@@ -34,4 +34,3 @@ Settings > SSH and GPG keys > New SSH key > Coller le contenu de la clé et vali
 eval "$(ssh-agent -s)" # pour lancer ssh-agent de façon sécurisée
 ssh-add ~/.ssh/id_rsa # pour activer la clé SSH
 ```
-
