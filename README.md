@@ -11,6 +11,7 @@
 
 **Environnement de développement :**
 - [Git](./Dev-Environment/git.md)
+- [VS Code](./Dev-Environment/code.md)
 - To be continued...
 
 **Tips :**
