@@ -79,10 +79,10 @@ export LANG="fr_FR.UTF-8"
 echo 'KEYMAP=fr' > /etc/vconsole.conf # Définition de la disposition du clavier
 ```
 
-* Installation et démarrage de DHCPCD (network manager)
+* Installation et démarrage d'un network manager
 ```bash
-pacman -S dhcpcd
-systemctl enable dhcpcd
+pacman -S networkmanager # Gestionnnaire de connexion
+systemctl enable NetworkManager
 ```
 
 * Définition du mot passe pour le root :
