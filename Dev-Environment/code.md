@@ -50,11 +50,13 @@ code --install-extension kamikillerto.vscode-colorize
     * [Linter JS](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     * [Syntax highlighting](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
     * [Bracket pair colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+    * [.env syntax highlighting](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
 ```bash
 pacman -S eslint # a installer avant l'extension linter
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dzannotti.vscode-babel-coloring
 code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension mikestead.dotenv
 ```
 
 * PHP
