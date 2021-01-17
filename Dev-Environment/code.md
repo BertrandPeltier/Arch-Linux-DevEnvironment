@@ -35,13 +35,13 @@ pacman -S htmlhint # A installer avant l'extension linter
 code --install-extension mkaufman.HTMLHint
 ```
 * CSS
-    * [Linter stylehint CSS](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+    * [Linter stylelint CSS](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
     * [Si stylehint ne marche pas](https://marketplace.visualstudio.com/items?itemName=calvinhong.stylelint-fix)
     * [Auto-complexion class-name](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
     * [Color colorising](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 ```bash
 pacman -S stylelint # A installer avant l'extension linter
-code --install-extension vscode-stylelint
+code --install-extension stylelint.vscode-stylelint
 code --install-extension Zignd.html-css-class-completion
 code --install-extension kamikillerto.vscode-colorize
 ```
