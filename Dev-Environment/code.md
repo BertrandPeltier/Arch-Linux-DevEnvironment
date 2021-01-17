@@ -1,16 +1,15 @@
 ## Installation de VS Code + extension
 
-* Installation de VS Codium (Open-source release)
-```bash
-pacman -S code
-```
-
 * VS Code (Microsoft-branded release) depuis les dépôts AUR
 ```bash
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
 ```
 cf. Tips [Dépots AUR](./Tips/aur.md)
 
+* Autre solution : VS Codium (Open-source release)
+```bash
+pacman -S code
+```
 
 * Extensions de base
     * [Language pack FR](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-fr)
