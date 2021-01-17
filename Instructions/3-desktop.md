@@ -15,6 +15,7 @@ pacman -S
 'nautilus' # Gestionnaire de fichier
 
 'gnome-control-center' # Paramètres Gnome
+# NB : ce paquet suivant permet de confirgurer facilement les locales du user
 
 'gnome-tweaks' # Ajustements Gnome
 
