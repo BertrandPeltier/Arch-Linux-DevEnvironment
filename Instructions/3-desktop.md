@@ -15,7 +15,7 @@ pacman -S
 'nautilus' # Gestionnaire de fichier
 
 'gnome-control-center' # Paramètres Gnome
-# NB : ce paquet permet de configurer facilement les locales du user
+# NB : ce paquet permet de configurer facilement les locales du user Paramètres/Pays et Langue
 
 'gnome-tweaks' # Ajustements Gnome
 
@@ -30,10 +30,9 @@ pacman -S
 ```bash
 pacman -S virtualbox-guest-utils # Installatation de l'utilitaire "invités" de VirtualBox
 systemctl enable vboxservice # Activation du sercice;
+reboot
 
-# Accorder les permissions pour accéder au dossier partagé
+# Après reboot et login : Accorder les permissions pour accéder au dossier partagé
 sudo usermod -a -G vboxsf 'users'
 sudo chown -R 'user':users /media/'dossier_partagé'
-
-reboot
 ```
