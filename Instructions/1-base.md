@@ -79,7 +79,7 @@ export LANG="fr_FR.UTF-8"
 echo 'KEYMAP=fr' > /etc/vconsole.conf # Définition de la disposition du clavier
 ```
 
-* Installation et démarrage de DHCPCD
+* Installation et démarrage de DHCPCD (network manager)
 ```bash
 pacman -S dhcpcd
 systemctl enable dhcpcd
