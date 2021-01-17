@@ -10,9 +10,6 @@ systemctl enable gdm # Activation de GDM
 
 * Paquets supplémentaires
 ```bash
-pacman -S networkmanager # Gestionnnaire de connexion
-systemctl enable NetworkManager
-
 pacman -S
 
 'nautilus' # Gestionnaire de fichier
