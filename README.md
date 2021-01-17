@@ -1,6 +1,6 @@
 # Arch Linux Dev. Environment
 
-**Objectif :** Se créer un environnement de développement sous Arch Linux (sur une VM)
+**Objectif :** Se créer sur une VM un environnement de développement épuré sous Arch Linux - Gnome minimal
 
 **Installation :**
 
@@ -12,9 +12,12 @@
 **Environnement de développement :**
 - [Git](./Dev-Environment/git.md)
 - [VS Code](./Dev-Environment/code.md)
-- To be continued...
+- [Node.js](./Dev-Environment/nodejs.md)
 
 **Tips :**
 - [Mise à jour du système & pacman](./Tips/maj-pacman.md)
 - [Script pour reflector - Mise à jour des mirroirs](./Tips/script-reflector.md)
 - [Script pour vérifier les erreurs système](./Tips/script-erreurs.md)
+- [Activation de numlock au boot de la console](./Tips/numlock.md)
+- [Quitter le desktop et revenir à la console](./Tips/back-to-console.md)
+- [En cas de problème de démarrage de la VM](./Tips/shell-vm.md)
