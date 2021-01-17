@@ -21,3 +21,4 @@
 - [Activation de numlock au boot de la console](./Tips/numlock.md)
 - [Quitter le desktop et revenir à la console](./Tips/back-to-console.md)
 - [En cas de problème de démarrage de la VM](./Tips/shell-vm.md)
+- [Dépots AUR](./Tips/aur.md)

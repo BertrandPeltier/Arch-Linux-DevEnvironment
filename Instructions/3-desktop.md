@@ -22,8 +22,6 @@ pacman -S
 'xdg-user-dirs' # Ajout des dossiers utilisateur (Bureau, Téléchargement...)
 
 'firefox' # Navigateur Web
-
-'chromium' # Autre navigateur web
 ```
 
 * Dossier partagé avec l'hôte
