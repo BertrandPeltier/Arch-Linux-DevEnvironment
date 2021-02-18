@@ -24,7 +24,7 @@ less 'package_name'.sh
 * Mise à jour d'un paquet AUR
 ```bash
 cd 'package_name_directory'
-git show # Voir les derniers changements
 git pull # Update
+git show # Voir les derniers changements
 makepkg -si # Compilation et installation du paquet
 ```
