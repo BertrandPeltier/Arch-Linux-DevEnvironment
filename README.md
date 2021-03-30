@@ -12,7 +12,7 @@
 **Environnement de développement :**
 - [Git](./Dev-Environment/git.md)
 - [Utilitaires](./Dev-Environment/utilitaires.md)
-- [VS Code](./Dev-Environment/code.md)
+- [dev-tools](./Dev-Environment/dev-tools.md)
 - [Node.js](./Dev-Environment/nodejs.md)
 
 **Tips :**
