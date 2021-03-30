@@ -17,12 +17,14 @@ pacman -S firefox firefox-developer-edition
 yay -S google-chrome
 ```
 
-## zsh (shell)
+## zsh (shell) + Powerlevel0k [source](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 ```bash
 pacman -S zsh
-
 # Configuration de base :
 zsh /usr/share/zsh/functions/Newuser/zsh-newuser-install -f
+
+# Installation du plugin
+yay -S zsh-theme-powerlevel10k-git
 
 # Définir zsh comme shell par défaut :
 chsh
