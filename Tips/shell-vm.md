@@ -19,7 +19,7 @@ bootx64.efi
 
 Puis F2 (save) et F3 (exit)
 
-![Détail des commande shell](./img/startup-nsh-cmd.PNG)
+![](/img/startup-nsh-cmd.PNG)
 
 ```bash
 reset
