@@ -8,7 +8,7 @@ pacman -S gdm gnome-terminal # le groupe gdm installe les dépendances 'gnome-sh
 systemctl enable gdm # Activation de GDM
 ```
 
-* Paquets supplémentaires
+* Paquets supplémentaires pour Gnome
 ```bash
 pacman -S
 
@@ -18,10 +18,6 @@ pacman -S
 # NB : ce paquet permet de configurer facilement les locales du user Paramètres/Pays et Langue
 
 'gnome-tweaks' # Ajustements Gnome
-
-'xdg-user-dirs' # Ajout des dossiers utilisateur (Bureau, Téléchargement...)
-
-'firefox' # Navigateur Web
 ```
 
 * Dossier partagé avec l'hôte
