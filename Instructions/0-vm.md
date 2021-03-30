@@ -10,7 +10,7 @@
 |Créer un disque virtuel maintenant||
 |VDI (VirtualBox Disk Image)||
 |Dynamiquement alloué||
-|Taille|64go|
+|Taille|100Go|
 
 * Paramétrage de la VM
 
