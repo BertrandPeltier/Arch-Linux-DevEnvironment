@@ -10,8 +10,8 @@
 - [Desktop environnement](./Instructions/3-desktop.md)
 
 **Environnement de développement :**
-- [Utilitaires](./Dev-Environment/utilitaires.md)
 - [Git](./Dev-Environment/git.md)
+- [Utilitaires](./Dev-Environment/utilitaires.md)
 - [VS Code](./Dev-Environment/code.md)
 - [Node.js](./Dev-Environment/nodejs.md)
 
