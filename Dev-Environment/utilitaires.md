@@ -25,6 +25,7 @@ zsh /usr/share/zsh/functions/Newuser/zsh-newuser-install -f
 
 # Installation du plugin
 yay -S zsh-theme-powerlevel10k-git
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 # Définir zsh comme shell par défaut :
 chsh
