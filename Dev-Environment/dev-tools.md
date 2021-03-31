@@ -17,3 +17,13 @@ nvm ls-remote # Liste toutes versions disponibles
 nvm install --lts # Installation de la dernière version lts disponible
 nvm use --lts # Utilisation de la dernière version lts
 ```
+
+## Bases de données
+```bash
+# PostgresQL
+pacman -S postgresql
+sudo -iu postgres
+initdb -D /var/lib/postgres/data
+systemctl start postgresql.service
+systemctl enable postgresql.service
+```
