@@ -2,7 +2,7 @@
 
 * Installation de reflector
 ```bash
-pacman -S relfector
+pacman -S reflector
 ```
 
 * Création du script
