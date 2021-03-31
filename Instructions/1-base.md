@@ -23,7 +23,8 @@ cfdisk # Choisir GPT
 |Device|Size|Type|
 |:-|:-:|:-:|
 |dev/sda1|512M|EFI System|
-|dev/sda2|99.5G|Linux filesystem|
+|dev/sda2|96G|Linux filesystem|
+|dev/sda2|3.5G|Linux swap|
 ```bash
 fdisk -l # Liste les partitions créées
 # autre commande possible : lsblk
@@ -33,11 +34,13 @@ fdisk -l # Liste les partitions créées
 ```bash
 mkfs.fat -F32 /dev/sda1 # EFI
 mkfs.ext4 /dev/sda2 # root
+mkswap /dev/sda3 # swap
 ```
 
 * Montage des partitions
 ```bash
 mount /dev/sda2 /mnt # root
+swapon /dev/sda3 # swap
 ```
 
 La partition EFI sera montée lors de l'installation du bootload (GRUB).
