@@ -34,13 +34,14 @@ systemctl start mysqld
 systemctl enable mysqld
 
 # MongoDB
-yay mongodb-bin
+yay -S mongodb-bin
 systemctl start mongodb.service
 systemctl enable mongodb.service
 ```
 
-## Outils
+## Insomnia
+
 ```bash
 yay -S insomnia # API client
-yay -S perl-app-sqitch # Sqitch : database management
+sudo ln -s /opt/insomnia/insomnia /usr/bin/insomnia
 ```
