@@ -45,3 +45,16 @@ systemctl enable mongodb.service
 yay -S insomnia # API client
 sudo ln -s /opt/insomnia/insomnia /usr/bin/insomnia
 ```
+
+## Sqitch (database management)
+Télécharger cette archive [sqitch](https://search.cpan.org/CPAN/authors/id/D/DW/DWHEELER/App-Sqitch-v1.1.0.tar.gz)
+Suivre cette [doc](https://github.com/sqitchers/sqitch)
+
+```bash
+pacman -S perl-module-install # Installation de Module::Build module
+perl Build.PL
+./Build installdeps
+./Build
+./Build test
+./Build install
+```
