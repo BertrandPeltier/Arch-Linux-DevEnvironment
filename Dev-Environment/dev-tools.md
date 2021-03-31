@@ -26,4 +26,15 @@ sudo -iu postgres
 initdb -D /var/lib/postgres/data
 systemctl start postgresql.service
 systemctl enable postgresql.service
+
+# MariaDB
+pacman -Syu  mariadb
+/usr/bin/mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+systemctl start mysqld
+systemctl enable mysqld
+
+# MongoDB
+yay mongodb-bin
+systemctl start mongodb.service
+systemctl enable mongodb.service
 ```
