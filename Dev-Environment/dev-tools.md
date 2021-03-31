@@ -38,3 +38,9 @@ yay mongodb-bin
 systemctl start mongodb.service
 systemctl enable mongodb.service
 ```
+
+## Outils
+```bash
+yay -S insomnia # API client
+yay -S perl-app-sqitch # Sqitch : database management
+```
