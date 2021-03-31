@@ -31,4 +31,12 @@ echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zs
 chsh
 /bin/zsh
 reboot
+
+# Quelques alias
+alias ls='ls --color=auto' # coloration des dir
+alias maj='sudo pacman -Syu'
+alias aur='yay -Syu --aur'
+alias bye='sudo shutdown now'
+alias zshmaj='source ~/.zshrc'
 ```
+
