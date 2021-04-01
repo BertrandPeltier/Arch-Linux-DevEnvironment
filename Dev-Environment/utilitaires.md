@@ -37,6 +37,9 @@ alias ls='ls --color=auto' # coloration des dir
 alias maj='sudo pacman -Syu'
 alias aur='yay -Syu --aur'
 alias bye='sudo shutdown now'
+alias clean='yay -Sc'
 alias zshmaj='source ~/.zshrc'
+alias error='systemctl --failed && echo ------------ && journalctl -p 3 -xb'
+alias mirror='./maj_mirros' # Voir script-reflector.md
 ```
 
