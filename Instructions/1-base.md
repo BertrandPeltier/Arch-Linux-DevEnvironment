@@ -24,7 +24,7 @@ cfdisk # Choisir GPT
 |:-|:-:|:-:|
 |dev/sda1|512M|EFI System|
 |dev/sda2|96G|Linux filesystem|
-|dev/sda2|3.5G|Linux swap|
+|dev/sda3|3.5G|Linux swap|
 ```bash
 fdisk -l # Liste les partitions créées
 # autre commande possible : lsblk
