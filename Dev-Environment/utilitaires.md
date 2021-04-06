@@ -41,5 +41,8 @@ alias clean='yay -Sc'
 alias zshmaj='source ~/.zshrc'
 alias error='systemctl --failed && echo ------------ && journalctl -p 3 -xb'
 alias mirror='./maj_mirros' # Voir script-reflector.md
+
+# Binkeys
+bindkey "^[[3~" delete-char
 ```
 
