@@ -17,19 +17,32 @@ pacman -S nodejs-lts-fermium npm
 pacman -S postgresql
 sudo -iu postgres
 initdb -D /var/lib/postgres/data
-systemctl start postgresql.service
-systemctl enable postgresql.service
+systemctl start postgresql
+systemctl enable postgresql
+## shell access
+psql -U postgres
 
 # MariaDB
 pacman -Syu  mariadb
 /usr/bin/mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 systemctl start mysqld
 systemctl enable mysqld
+## shell access
+mariadb
 
 # MongoDB
 yay -S mongodb-bin
-systemctl start mongodb.service
-systemctl enable mongodb.service
+systemctl start mongodb
+systemctl enable mongodb
+## shell access
+mongo
+
+# Redis
+pacman -S redis
+systemctl start redis
+systemctl enable redis
+## shell access
+redis-cli
 ```
 
 ## Insomnia
